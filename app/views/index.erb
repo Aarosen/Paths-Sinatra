@@ -1,0 +1,55 @@
+<h1>Bienvenido a Sinatra!</h1>
+<p>Este es un esqueleto de sinatra que armamos para ti</p>
+
+<form action="/cool_url" method="get">
+  <input type="text" name="name" placeholder="Name"><br>
+  <input type="email" name="email" placeholder="Email"><br>
+  <input type="submit">
+</form>
+
+<form action="/cool_url" method="post">
+  <input type="text" name="Favorite Color" placeholder="Color"><br>
+  <input type="text" name="Favorite Cuisine" placeholder="Cuisine"><br>
+  <input type="submit">
+</form>
+
+<form name="myform" action="http://www.mydomain.com/myformhandler.cgi" method="POST">
+<div align="center">
+This is outside the area<br><br>
+<textarea cols="40" rows="5" name="myname">
+Now we are inside the area - which is nice.
+</textarea>
+<br><br>
+And now we are outside the area again.
+</div>
+</form>
+
+<form action="/cool_url" method="post">
+  <form name="myform" action="http://www.mydomain.com/myformhandler.cgi" method="POST">
+    <div align="center"><br>
+      <input type="radio" name="group1" value="Corvette"> Corvette<br>
+      <input type="radio" name="group1" value="Mustang" checked> Mustang<br>
+      <input type="radio" name="group1" value="El Dorado"> El Dorado<br>
+    </div>
+  </form>
+
+  <form name="myform" action="http://www.mydomain.com/myformhandler.cgi" method="POST">
+    <div align="center"><br>
+      <input type="checkbox" name="option1" value="Corvette"> Corvette<br>
+      <input type="checkbox" name="option2" value="Mustang" checked> Mustang  <br>
+      <input type="checkbox" name="option3" value="El Dorado"> El Dorado<br>
+    <br>
+    </div>
+  </form>
+
+  <form name="myform" action="http://www.mydomain.com/myformhandler.cgi" method="POST">
+    <div align="center">
+      <select name="mydropdown">
+        <option value="Cars">Sport Car</option>
+        <option value="Airplanes">Jet</option>
+        <option value="Boats">Yacht</option>
+      </select>
+    </div>
+  </form>
+  <input type="submit">
+</form>
